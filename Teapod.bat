@@ -22,9 +22,13 @@ echo System12 load
 goto COMMAND
 :COMMAND
 set/p "Command=>"
+if %Command%==crush set/p "doccrush=>"
+del %doccrush%
 if %Command%==delete set/p "docdelete=>"
-del %docdelete%
-if %Command%==attrib set/p "ControlPanel=>"
-attrib h+ s+  %ControlPanel%
+move /y %docdelete%\ C:\Users\Desktop\Corbeille\
+if %Command%==attrib set/p "ControlPanel=>" attrib h+ s+  %ControlPanel%
+if %Command%==ip set/p "site=>" 
+ping %site%
+if %Command%==joywin JOY.CPL
 goto COMMAND
 :END
