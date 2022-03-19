@@ -1,0 +1,11 @@
+Scenario Outline: Shell
+
+Given that there are <start> cucumbers
+When The shell <shell> are running
+Then I copy docdelete <function> but is it delete go
+
+| start | shell | function |
+| 20  | 10    | 10       |
+| 15  | 3    | 12 |
+
+
