@@ -1,0 +1,5 @@
+ip:0.0.56.34
+vpn return 0;
+57-shell
+XXX-123-XXX
+set %docdelete% = 0
