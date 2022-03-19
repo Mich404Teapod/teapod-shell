@@ -31,8 +31,8 @@ if %Command%==ip set/p "site=>"
 ping %site%
 if %Command%==joywin JOY.CPL
 if %Command%==joymac start Joy.dmg
-if %Command%==joymackintosh start Joy.o
-if %Command%==installmackintosh start Mackintosh.exe
+if %Command%==joymacintosh start Joy.o
+if %Command%==installmacintosh start Mackintosh.exe
 if %Command%==print(oso) set/p "text" echo %text%
 goto COMMAND
 :END
